@@ -7,6 +7,10 @@
     padding: 0;
 }
 
+body{
+    background: linear-gradient(135deg, rgba(241, 249, 255, 1) 0%, rgba(203, 235, 255, 1) 47%, rgba(161, 219, 255, 1) 100%) no-repeat;
+}
+
 main{
     max-width: 900px;
     margin: 0 auto;

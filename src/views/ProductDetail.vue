@@ -1,17 +1,18 @@
 <template>
-    <button @click="router.push({name: 'Catalog'})">Back to catalog</button>
-    <div class="product">
-        <div class="product-image">
-            <img :src="selectedProduct.thumbnail" alt="">
-        </div>
-        <div class="product-details">
-            <p>Brand: {{ selectedProduct.brand }}</p>
-            <p>Descritpion: {{ selectedProduct.description }}</p>
-            <h2>Price: ${{ selectedProduct.price }}</h2>
-            <button @click="addToCart">Add to cart</button>
-        </div>
+  <main class="h-screen">
+    <button @click="router.push({ name: 'Catalog' })" class="capitalize font-semibold px-4 py-2 text-blue-900 rounded-md cursor-pointer hover:text-blue-700 active:text-blue-600">Back to catalog</button>
+    <div class="flex flex-col sm:flex-row my-20">
+      <div class="sm:mr-8">
+        <img :src="selectedProduct.thumbnail" alt="" class="w-64 rounded-md">
+      </div>
+      <div class="mt-4 sm:mt-0">
+        <p class="font-semibold text-xl">Brand: {{ selectedProduct.brand }}</p>
+        <p class="text-gray-700">Description: {{ selectedProduct.description }}</p>
+        <h2 class="font-bold text-2xl"> ${{ selectedProduct.price }}</h2>
+        <button @click="addToCart" class="py-2 px-4 bg-green-500 text-white rounded hover:bg-green-600 cursor-pointer mt-4">Add to cart</button>
+      </div>
     </div>
-    
+  </main>
 </template>
 
 <script>
@@ -42,11 +43,4 @@ const addToCart = () => {
 </script>
 
 <style scoped>
-.product{
-    display: flex;
-    margin-top: 50px;
-}
-.product.image{
-    margin-right: 24px;
-}
 </style>
