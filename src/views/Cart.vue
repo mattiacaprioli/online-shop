@@ -1,5 +1,5 @@
 <template>
-  <main class="max-h-[100vh] overflow-auto">
+  <main class="max-h-[100vh] overflow-auto min-h-[100vh]">
     <button @click="router.push({ name: 'Catalog' })" class="capitalize font-semibold px-4 py-2 text-blue-900 rounded-md cursor-pointer hover:text-blue-700">Back to catalog</button>
     <div v-if="!store.cart.length" class="text-center mt-8">
       <h1 class="text-2xl font-bold mt-20">Empty Cart...</h1>
