@@ -1,7 +1,7 @@
 <template>
   <Banner />
   <main>
-    <ul class='flex flex-col md:flex-row justify-evenly  md:justify-center items-center '>
+    <ul class='flex flex-col md:flex-row justify-evenly  md:justify-center items-center mt-4'>
       <li @click="filterProducts('all')" class='btn'>All</li>
       <li @click="filterProducts('smartphones')" class='btn'>Smartphones</li>
       <li @click="filterProducts('laptops')" class='btn'>Laptops</li>
