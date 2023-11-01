@@ -1,5 +1,5 @@
 <template>
-  <main class="h-screen">
+  <main class="max-h-[100vh] overflow-auto">
     <button @click="router.push({ name: 'Catalog' })" class="capitalize font-semibold px-4 py-2 text-blue-900 rounded-md cursor-pointer hover:text-blue-700">Back to catalog</button>
     <div v-if="!store.cart.length" class="text-center mt-8">
       <h1 class="text-2xl font-bold mt-20">Empty Cart...</h1>
@@ -46,17 +46,4 @@ const removeFromCart = (id) => {
 </script>
 
 <style scoped>
-.item-details{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 32px;
-    box-shadow: 0 0 17px 6px #e7e7e7;
-    border-radius: 8px;
-    padding: 16px;
-}
-
-.item-details img {
-    width: 20%;
-}
 </style>
