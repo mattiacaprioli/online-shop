@@ -1,35 +1,37 @@
-# online-shop
+# TechTrend
 
-This template should help get you started developing with Vue 3 in Vite.
+Benvenuto nel progetto TechTrend! Questo è un sito di e-commerce in cui gli utenti possono navigare tra una varietà di prodotti (Tech) e aggiungere i prodotti desiderati al carrello. Il progetto è stato sviluppato con l'obiettivo di consolidare le chiamate API utilizzando Vue.
 
-## Recommended IDE Setup
+## Link deploy dell'app con netlify
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+link: https://techtrend.netlify.app/
 
-## Customize configuration
+## Screenshot
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+![Banner](https://github.com/mattiacaprioli/online-shop/blob/main/src/assets/images/Screenshot.png)
 
-## Project Setup
+## Tecnologie utilizzate
 
-```sh
-npm install
-```
+- HTML
+- CSS
+- Javascript
+- Tailwind css
+- vue3 (v3, Vue router, Pinia, JSON API)
 
-### Compile and Hot-Reload for Development
+## Come Iniziare
 
-```sh
-npm run dev
-```
+Per avviare il progetto in locale, segui questi passi:
 
-### Compile and Minify for Production
+1. Clona il repository.
 
-```sh
-npm run build
-```
+2. Assicurati di avere Node.js installato sulla tua macchina.
 
-### Lint with [ESLint](https://eslint.org/)
+3. Esegui `npm install` per installare le dipendenze del progetto.
 
-```sh
-npm run lint
-```
+4. Esegui `npm run serve` per avviare il server di sviluppo.
+
+5. Apri il tuo browser e vai all'indirizzo `http://localhost:8080` per visualizzare il sito in locale.
+
+## Autore
+
+Mattia Caprioli
